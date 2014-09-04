@@ -23,7 +23,7 @@
                 android:layout_gravity="center"
                 android:text="Username"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:textSize="26dp" />
+                android:textSize="34sp" />
         </LinearLayout>
 
         <LinearLayout
@@ -60,7 +60,7 @@
                     android:layout_weight="1"
                     android:text="email"
                     android:textAppearance="?android:attr/textAppearanceMedium"
-                    android:textSize="26dp" />
+                    android:textSize="34sp" />
 
                 <TextView
                     android:id="@+id/txtEmail"
@@ -68,7 +68,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="TextView"
-                    android:textSize="26dp" />
+                    android:textSize="34sp" />
             </LinearLayout>
 
             <LinearLayout
@@ -82,7 +82,7 @@
                     android:layout_weight="1"
                     android:text="mobile"
                     android:textAppearance="?android:attr/textAppearanceMedium"
-                    android:textSize="26dp" />
+                    android:textSize="34sp" />
 
                 <TextView
                     android:id="@+id/txtMobile"
@@ -90,7 +90,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="TextView"
-                    android:textSize="26dp" />
+                    android:textSize="34sp" />
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>

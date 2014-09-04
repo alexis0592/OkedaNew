@@ -1,23 +1,22 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/gridDashBoard"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#bdc3c7"
     android:orientation="vertical"
-    android:weightSum="1"
-    tools:context="co.gov.fna.vivienda.presentacion.actividades.DashBoard" >
+    tools:context="co.gov.fna.vivienda.presentacion.actividades.DashBoard"
+    android:id="@+id/gridDashBoard"
+     android:background="#bdc3c7"
+    android:weightSum="1">
 
     <GridView
         android:id="@+id/gridView1"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        android:layout_marginTop="50dp"
-        android:layout_marginLeft="25dp"
-        android:gravity="center"
+        android:numColumns="2" 
+        android:verticalSpacing="50dp"
         android:horizontalSpacing="25dp"
-        android:numColumns="2"
-        android:verticalSpacing="50dp" >
+        android:layout_marginTop="50dp"
+        android:gravity="center">
     </GridView>
 
 </LinearLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#bdc3c7"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp" >
+
+    <TextView
+        android:id="@+id/TextoUno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        android:text="El Fondo Nacional del AHORRO le proporciona créditos en UVR desde $14.167.500 hasta $850.050.000 y se rige por la normatividad vigente establecida para el otorgamiento de crédito. La tasa de interés de estos créditos es asignada de acuerdo a las condiciones financieras del afiliado y el valor oscila entre UVR + 5 % y UVR + 9 % dependiendo de su asignación básica mensual."
+        android:textAppearance="?android:attr/textAppearanceMedium" 
+        android:textSize="30dp"/>
+
+    <TextView
+        android:id="@+id/TextoDos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        android:text="El Fondo Nacional del AHORRO le proporciona créditos en PESOS desde $9.633.900 hasta $850.050.000 y se rige por la normatividad vigente establecida para el otorgamiento de crédito."
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="30dp" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="37dp"
+        android:layout_marginTop="100dp"
+        android:onClick="goToSimulator"
+        android:src="@drawable/simuladorbtn" />
+
+    <ImageView
+        android:id="@+id/imageView44"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/logo" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/okeda200" />
+
+</LinearLayout>

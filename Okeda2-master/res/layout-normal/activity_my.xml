@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MyActivity" >
+
+    <Button
+        android:id="@+id/btnGet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="getServices"
+        android:text="Get" />
+
+    <Button
+        android:id="@+id/btnLogIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="logIn"
+        android:text="Loging" />
+
+    <Button
+        android:id="@+id/btnSingUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="singUp"
+        android:text="Singup" />
+
+    <Button
+        android:id="@+id/btnDashBoard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="openDashBoar"
+        android:text="dash" />
+
+    <Button
+        android:id="@+id/atencion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="atencion"
+        android:text="Atencion" />
+
+    <Button
+        android:id="@+id/btnBusquedaViviendas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="openBusquedaViviendas"
+        android:text="BusquedaViviendas" />
+
+</LinearLayout>
