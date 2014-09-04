@@ -10,10 +10,10 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
 
-import com.example.usuario.tryww.Mapas;
 
 import co.gov.fna.okeda.R;
 import co.gov.fna.okeda.controladores.ControladorPuntoAtencion;
+import co.gov.fna.okeda.usuario.Mapas;
 
 public class PuntoAtencionActivity extends Activity {
 	private ControladorPuntoAtencion controlador;

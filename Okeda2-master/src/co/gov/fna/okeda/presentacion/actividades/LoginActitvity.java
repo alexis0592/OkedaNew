@@ -14,12 +14,12 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.ImageView;
 import com.parse.Parse;
-import com.example.usuario.tryww.PreferenceActivityMain;
 
 import co.gov.fna.okeda.R;
 import co.gov.fna.okeda.controladores.ControladorLoginActivity;
 import co.gov.fna.okeda.persistence.dao.impl.ViviendaDAOImpl;
 import co.gov.fna.okeda.presentacion.actividades.Dashboard.DashBoard;
+import co.gov.fna.okeda.usuario.PreferenceActivityMain;
 
 public class LoginActitvity extends Activity {
 	private ControladorLoginActivity controlador;

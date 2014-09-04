@@ -15,9 +15,9 @@ import co.gov.fna.okeda.controladores.ControladorDashBoard;
 import co.gov.fna.okeda.presentacion.actividades.BusquedaPuntoAtencionActivity;
 import co.gov.fna.okeda.presentacion.actividades.BusquedaViviendas;
 import co.gov.fna.okeda.presentacion.actividades.SimuladorActivity;
+import co.gov.fna.okeda.usuario.CreditoActivity;
+import co.gov.fna.okeda.usuario.PerfilActivity;
 
-import com.example.usuario.tryww.CreditoActivity;
-import com.example.usuario.tryww.PerfilActivity;
 
 public class DashBoard extends Activity {
 

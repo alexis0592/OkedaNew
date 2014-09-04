@@ -9,9 +9,9 @@ import co.gov.fna.okeda.controladores.ControladorMostrarVivienda;
 import co.gov.fna.okeda.interfaces.impl.FactoryEntidades;
 import co.gov.fna.okeda.modelo.entidades.Entidades;
 import co.gov.fna.okeda.modelo.entidades.Vivienda;
+import co.gov.fna.okeda.usuario.Mapas;
 import co.gov.fna.okeda.utilidades.SocialNetwork;
 
-import com.example.usuario.tryww.Mapas;
 import com.google.android.gms.maps.model.LatLng;
 
 import android.app.Activity;
@@ -80,7 +80,7 @@ public class MostrarVivienda extends Activity {
 	}
 
 	public void formulario(View v) {
-		Intent i = new Intent(this, com.example.usuario.tryww.Formulario.class);
+		Intent i = new Intent(this, co.gov.fna.okeda.usuario.Formulario.class);
 		startActivity(i);
 
 	}

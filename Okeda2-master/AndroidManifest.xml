@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.usuario.tryww"
+    package="co.gov.fna.okeda"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -23,7 +23,7 @@
 
     <instrumentation
         android:name="android.test.InstrumentationTestRunner"
-        android:targetPackage="com.example.usuario.tryww" >
+        android:targetPackage="co.gov.fna.okeda" >
     </instrumentation>
 
     <uses-feature
@@ -74,10 +74,6 @@
             android:label="@string/title_activity_busqueda_viviendas" >
         </activity>
         <activity
-            android:name=".BusquedaViviendas"
-            android:label="@string/title_activity_busqueda_viviendas" >
-        </activity>
-        <activity
             android:name="co.gov.fna.okeda.presentacion.actividades.MostrarVivienda"
             android:label="@string/title_activity_mostrar_vivienda" >
         </activity>
@@ -98,23 +94,23 @@
             android:label="@string/title_activity_mapa_activty" >
         </activity>
         <activity
-            android:name=".MapasAc"
+            android:name=".usuario.MapasAc"
             android:label="@string/title_activity_mapas" >
         </activity>
         <activity
-            android:name=".PerfilActivity"
+            android:name=".usuario.PerfilActivity"
             android:label="@string/title_activity_perfil" >
         </activity>
         <activity
-            android:name=".Formulario"
+            android:name=".usuario.Formulario"
             android:label="Formulario" >
         </activity>
         <activity
-            android:name=".CreditoActivity"
+            android:name=".usuario.CreditoActivity"
             android:label="Credito" >
         </activity>
         <activity
-            android:name="com.example.usuario.tryww.Mapas"
+            android:name="co.gov.fna.okeda.usuario.Mapas"
             android:label="@string/title_activity_mapas" >
         </activity>
         <activity
@@ -130,7 +126,7 @@
             android:label="@string/title_activity_credit_founded" >
         </activity>
         <activity
-            android:name=".PreferenceActivityMain"
+            android:name=".usuario.PreferenceActivityMain"
             android:label="@string/title_activity_preference_activity_main" >
         </activity>
         <activity
