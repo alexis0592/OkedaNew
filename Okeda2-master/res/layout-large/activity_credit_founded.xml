@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+      android:background="#bdc3c7"
+    android:paddingRight="16dp" >
+
+    <TextView
+        android:id="@+id/Titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:text="Resultado Simulación"
+       android:textSize="28dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/textView4"
+        android:layout_below="@+id/editText01"
+        android:layout_marginTop="24dp"
+        android:text="Valor Minimo del Inmueble a Financiar"
+        android:textSize="24dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText02"
+        android:layout_below="@+id/editText02"
+        android:layout_marginTop="21dp"
+         android:textSize="24dp"
+        android:text="Plazo del crédito (años)" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText03"
+        android:layout_below="@+id/editText03"
+        android:layout_marginTop="21dp"
+          android:textSize="24dp"
+        android:text="Puntos Adicionales al UVR Pactados" />
+    
+    <EditText
+        android:id="@+id/editText000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_toLeftOf="@+id/button1"
+        android:editable="false"
+        android:ems="10" >
+
+        
+    </EditText>
+    
+    <EditText
+        android:id="@+id/editText01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_toLeftOf="@+id/button1"
+        android:editable="false"
+        android:ems="10" >
+
+        
+    </EditText>
+
+    <EditText
+        android:id="@+id/editText02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_toLeftOf="@+id/button1"
+        android:editable="false"
+        android:ems="10" >
+
+        
+    </EditText>
+
+    <EditText
+        android:id="@+id/editText03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView3"
+        android:layout_toLeftOf="@+id/button1"
+        android:editable="false"
+        android:ems="10" >
+
+        
+    </EditText>
+
+    <EditText
+        android:id="@+id/editText04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView4"
+        android:layout_toLeftOf="@+id/button1"
+        android:editable="false"
+        android:ems="10" >
+
+        
+    </EditText>
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Titulo"
+        android:layout_below="@+id/Titulo"
+        android:layout_marginTop="33dp"
+          android:textSize="24dp"
+        android:text="Monto Máximo del Crédito" />
+    
+    
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText01"
+        android:layout_below="@+id/editText000"
+        android:layout_marginTop="20dp"
+          android:textSize="24dp"
+        android:text="Cuota Pactada (Sin incluir seguros)" />
+    
+    
+
+</RelativeLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="viviendas_properties_names">
+
+        <item name="acabados">acabados</item>
+        <item name="aplica_subsidio">aplica_subsidio</item>
+        <item name="areadesde">areadesde</item>
+        <item name="areahasta">areahasta</item>
+        <item name="barrio">barrio</item>
+        <item name="cantida_inmuebles_disponibles">cantidadde_inmuebles_disponibles</item>
+        <item name="caracteristicas_proyecto">caracteristicasproyecto</item>
+        <item name="clase_de_vivienda">clasede_vivienda</item>
+        <item name="credito_fna">creditofna</item>
+        <item name="ciudad">ciudad</item>
+        <item name="cuota_inicial">cuotainicial</item>
+        <item name="cuota_mensual">cuotamensual</item>
+        <item name="departamento">departamento</item>
+        <item name="dia_de_atencion_desde">diadeatencion_desde</item>
+        <item name="dia_de_atencion_hasta">diadeatencion_hasta</item>
+        <item name="direccion_proyecto">direccionproyecto</item>
+        <item name="direccion_sala_de_ventas">direccionsala_deventas</item>
+        <item name="direccion_sede_principal_constructora">direccionsede_principal_constructora</item>
+        <item name="email_constructora">emailconstructora</item>
+        <item name="estado_obra">estadoobra</item>
+        <item name="estrato">estrato</item>
+        <item name="fecha_de_entrega">fechadeentrega</item>
+        <item name="horario_de_atencion_desde">horadeatenciondesde</item>
+        <item name="hora_de_atencion_hasta">horadeatencion_hasta</item>
+        <item name="imagenprincipal">imagenprincipal</item>
+        <item name="imagen1">imagen1</item>
+        <item name="imagen2">imagen2</item>
+        <item name="imagen3">imagen3</item>
+        <item name="imagen4">imagen4</item>
+        <item name="imagen5">imagen5</item>
+        <item name="latitud">latitud</item>
+        <item name="localidad_o_zona">localidadozona</item>
+        <item name="longitud">longitud</item>
+        <item name="nit_constructora">nitconstructora</item>
+        <item name="nombre_contacto_constructora">nombrecontactoconstructora</item>
+        <item name="nombre_contacto_sala_de_venta">nombrecontacto_saladeventas</item>
+        <item name="nombre_constructora">nombreconstructora</item>
+        <item name="nombre_proyecto">nombreproyecto</item>
+        <item name="nombre_representante_legal_constructora">nombrerepresentante_legalconstructora</item>
+        <item name="partition_key">PartitionKey</item>
+        <item name="precio_desde">preciodesde</item>
+        <item name="precio_hasta">preciohasta</item>
+        <item name="telefono_contacto_constructora">telefonocontacto_constructora</item>
+        <item name="telefono_celular_sala_de_ventas">telefonocelularsaladeventas</item>
+        <item name="telefono_fijo_sala_de_ventas">telefonofijosala_deventas</item>
+        <item name="tipo_de_inmueble_ofrecido">tipode_inmueble_ofrecido</item>
+        <item name="valor_inmuble">valorinmueble</item>
+
+
+
+    </string-array>
+
+</resources>

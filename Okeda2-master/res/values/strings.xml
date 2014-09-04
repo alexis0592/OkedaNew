@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name" translatable="false">Okeda</string>
+    <string name="hello_world" translatable="false">Hello world!</string>
+    <string name="action_settings" translatable="false">Settings</string>
+    <string name="parseid" translatable="false">CJbSa2AgkJSIicrkc7xaQn7FRR6xpdkfxENSvRTR</string>
+    <string name="parseid2" translatable="false">zDdozvfT4wwbZjbkeh4VX1KdXb4937QhDG0B788i</string>
+    <string name="title_activity_dash_board" translatable="false">DashBoard</string>
+    <string name="tipoEntidad" translatable="false">Tipo de Entidad</string>
+    <string name="PAdepto" translatable="false">Departamento</string>
+    <string name="PAMunicipio" translatable="false">Municipio</string>
+    <string name="PADireccion" translatable="false">Dirección</string>
+    <string name="PAHorario" translatable="false">Horario</string>
+    <string name="PAHorarioE" translatable="false">Horario extendido</string>
+    <string name="PAServicio" translatable="false">Servicio</string>
+    <string name="PACosto" translatable="false">Costo</string>
+    <string name="PuntoAt" translatable="false">PuntoAtencion</string>
+    <string name="title_activity_busqueda_viviendas" translatable="false">BusquedaViviendas</string>
+    <string name="title_activity_mostrar_vivienda" translatable="false">MostrarVivienda</string>
+    <string name="title_activity_comentarios" translatable="false">ComentariosActivity</string>
+    <string name="title_activity_busqueda_punto_atencion" translatable="false">BusquedaPuntoAtencionActivity</string>
+    <string name="title_activity_mapa_activty" translatable="false">MapaActivty</string>
+    <string name="title_activity_mapas" translatable="false">MapasAc</string>
+    <string name="title_activity_perfil" translatable="false">PerfilActivity</string>
+    <string name="title_activity_mapa" translatable="false">Mapa</string>
+    <string name="user_name" translatable="false">Usuario</string>
+    <string name="password" translatable="false">Contrasena</string>
+    <string name="email" translatable="false">Email</string>
+    <string name="telefono" translatable="false">Telefono</string>
+    <string name="error_datos" translatable="false">Verifique Los Datos Por Favor</string>
+    <string name="error" translatable="false">Error</string>
+    <string name="alerta" translatable="false">Alerta</string>
+    <string name="mensaje_registrando" translatable="false">Registrando Espere Por Favor</string>
+    <string name="mensaje_registro_exitoso" translatable="false">Registro Exitoso</string>
+    <string name="exito" translatable="false">Exito</string>
+    <string name="title_activity_preference" translatable="false">PreferenceActivity</string>
+    <string name="title_activity_preference_activity_main" translatable="false">PreferenceActivityMain</string>
+    <string name="title_activity_credits_simulator" translatable="false">CreditsSimulator</string>
+    <string name="title_activity_credit_founded" translatable="false">CreditFoundedActivity</string>
+
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="puntosatencion_properties_names">
+
+
+
+
+        <item name="cedulaocodigodebarras">cedulaocodigodebarras</item>
+        <item name="costodetransaccion">costodetransaccion</item>
+        <item name="departamento">departamento</item>
+        <item name="direccion">direccion</item>
+        <item name="horariodeatencion">horariodeatencion</item>
+        <item name="horarioextendido">horarioextendido</item>
+        <item name="latitud">latitud</item>
+        <item name="longitud">longitud</item>
+        <item name="municipio">municipio</item>
+        <item name="no">no</item>
+        <item name="PartitionKey">PartitionKey</item>
+        <item name="tipodeentidad">tipodeentidad</item>
+        <item name="tipodeservicioqueofrecealafiliado">tipodeservicioqueofrecealafiliado</item>
+
+
+    </string-array>
+</resources>
