@@ -26,8 +26,7 @@ $RECYCLE.BIN/
 .LSOverride
 
 # Icon must ends with two \r.
-Icon
-
+Icon
 # Thumbnails
 ._*
 
@@ -39,5 +38,4 @@ Icon
 *.class
 *.cache
 *.apk
-*.classpath
 Okeda2-master/bin/
