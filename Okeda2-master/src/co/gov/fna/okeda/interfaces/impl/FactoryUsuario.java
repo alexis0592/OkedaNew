@@ -22,7 +22,6 @@ public class FactoryUsuario implements IFactoryUsuario {
 
 	@Override
 	public Usuario createUser(ParseUser user) {
-		// TODO Auto-generated method stub
 		Usuario u = null;
 		if (user != null) {
 			u = new Usuario(user);
@@ -33,13 +32,11 @@ public class FactoryUsuario implements IFactoryUsuario {
 
 	@Override
 	public Usuario getCurrentUserInActivity() {
-		// TODO Auto-generated method stub
 		return this.user;
 	}
 
 	@Override
 	public void setUsuario(Usuario usuario) {
-		// TODO Auto-generated method stub
 		this.user= usuario;
 	}
 

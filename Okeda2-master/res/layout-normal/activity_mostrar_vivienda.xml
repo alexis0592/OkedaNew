@@ -44,7 +44,7 @@
                     android:layout_gravity="center"
                     android:layout_weight="3"
                     android:onClick="listener1"
-                    android:src="@drawable/abc_ab_bottom_solid_light_holo" />
+                    android:src="@drawable/ic_launcher" />
 
                 <ImageView
                     android:id="@+id/flechaDerecha1"
@@ -77,7 +77,7 @@
                     android:layout_weight="3"
                     android:contentDescription="4"
                     android:onClick="listener2"
-                    android:src="@drawable/abc_ab_bottom_solid_light_holo" />
+                    android:src="@drawable/ic_launcher" />
 
                 <ImageView
                     android:id="@+id/flechaDerecha2"
@@ -109,7 +109,7 @@
                     android:layout_gravity="center"
                     android:layout_weight="3"
                     android:onClick="listener3"
-                    android:src="@drawable/abc_ab_bottom_solid_light_holo" />
+                    android:src="@drawable/ic_launcher" />
 
                 <ImageView
                     android:id="@+id/flechaDerecha3"
@@ -141,7 +141,7 @@
                     android:layout_gravity="center"
                     android:layout_weight="3"
                     android:onClick="listener3"
-                    android:src="@drawable/abc_ab_bottom_solid_light_holo" />
+                    android:src="@drawable/ic_launcher" />
 
                 <ImageView
                     android:id="@+id/flechaDerecha4"
@@ -174,7 +174,7 @@
                     android:layout_weight="3"
                     android:contentDescription="7"
                     android:onClick="listener5"
-                    android:src="@drawable/abc_ab_bottom_solid_light_holo" />
+                    android:src="@drawable/ic_launcher" />
 
                 <ImageView
                     android:id="@+id/flechaDerecha5"
@@ -207,7 +207,7 @@
                     android:layout_gravity="center"
                     android:layout_weight="3"
                     android:onClick="listener6"
-                    android:src="@drawable/abc_ab_bottom_solid_light_holo" />
+                    android:src="@drawable/ic_launcher" />
 
                 <ImageView
                     android:id="@+id/flechaDerecha6"
